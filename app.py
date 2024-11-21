@@ -31,7 +31,7 @@ def loanCalc(P, N, R):
 def application():
 
     # Header of the application
-    st.set_page_config(page_title="Loan Calculator - Amit")
+    st.set_page_config(page_title="Loan Calculator - Amit") # page icon can also be set
     # Show application title
     st.title("Loan Calculator - Amit Kharote")
     # Add the subheading
@@ -65,3 +65,7 @@ def application():
 # Main application below
 if __name__ == "__main__":
     application()
+
+
+
+# in terminal type ( python -m streamlit run app.py )   to run the app,  (  ctrl+c  ) to stop running the app
